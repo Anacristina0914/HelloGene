@@ -1,5 +1,0 @@
-#!/bin/bash
-for i in `cat 150pdbids.txt`
-do wget -c "http://www.pdb.org/pdb/download/downloadFile.do?fileFormat=pdb&compression=NO&structureId="$i -O $i.pdb
-#downloads the pdb using the identifier and stores it in a file name under the identifier with .pdb extension
-done
