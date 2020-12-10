@@ -1,0 +1,1 @@
+This is a test to see if moving a git repository to a different location affects the git repository status.
